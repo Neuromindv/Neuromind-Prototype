@@ -20,17 +20,22 @@ class NeuromindServer:
             cls._instance.net.load_branches()
         return cls._instance
 
+# Serwer z dostępem do `net`
+class CustomTCPServer(socketserver.TCPServer):
+    def __init__(self, server_address, RequestHandlerClass, bind_and_activate=True):
+        self.net = NeuromindServer().net  # Przekazanie singletona
+        super().__init__(server_address, RequestHandlerClass, bind_and_activate=bind_and_activate)
+
 class NeuromindHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
-        self.server_instance = NeuromindServer()  # Inicjalizacja singletona
         super().__init__(*args, directory=WEB_DIR, **kwargs)
 
     def do_GET(self):
         if self.path == '/network':
             data = {
-                "neurons": self.server_instance.net.neurons,
-                "rhythm_freq": self.server_instance.net.rhythm_freq,
-                "core": self.server_instance.net.core_neuron["label"],
+                "neurons": self.server.net.neurons,
+                "rhythm_freq": self.server.net.rhythm_freq,
+                "core": self.server.net.core_neuron["label"],
                 "questions": ["What knowledge do I need?", "In which directions should I grow?"]
             }
             self.send_response(200)
@@ -45,13 +50,19 @@ class NeuromindHandler(http.server.SimpleHTTPRequestHandler):
             content_length = int(self.headers['Content-Length'])
             post_data = self.rfile.read(content_length)
             data = json.loads(post_data)
-            answer = data.get("answer", "Unknown").lower().strip()  # Normalizacja
-            # Sprawdzenie duplikatów z aktualnym stanem
-            is_duplicate = any(branch["label"].lower() == f"response: {answer}" for branch in self.server_instance.net.branches)
+            answer = data.get("answer", "Unknown").lower().strip()
+            # Sprawdzenie duplikatów
+            is_duplicate = any(branch["label"].lower() == f"response: {answer}" for branch in self.server.net.branches)
             if not is_duplicate:
-                self.server_instance.net.grow_network(5, f"Response: {answer.capitalize()}")
-                self.server_instance.net.save_branches()  # Zapis stanu
-            response = {"branch": f"Response: {answer.capitalize()}", "neurons": self.server_instance.net.neurons}
+                self.server.net.grow_network(5, f"Response: {answer.capitalize()}")
+                self.server.net.save_branches()  # Zapis stanu
+            # Pobierz ostatnie podpytania (tylko dla nowych gałęzi)
+            subquestions = self.server.net.branches[-1].get("subquestions", []) if not is_duplicate else []
+            response = {
+                "branch": f"Response: {answer.capitalize()}",
+                "neurons": self.server.net.neurons,
+                "subquestions": subquestions
+            }
             self.send_response(200)
             self.send_header("Content-type", "application/json")
             self.end_headers()
@@ -59,6 +70,7 @@ class NeuromindHandler(http.server.SimpleHTTPRequestHandler):
         else:
             super().do_GET()
 
-with socketserver.TCPServer(("", PORT), NeuromindHandler) as httpd:
-    print(f"Serving at port {PORT}")
-    httpd.serve_forever()
+if __name__ == "__main__":
+    with CustomTCPServer(("", PORT), NeuromindHandler) as httpd:
+        print(f"Serving at port {PORT}")
+        httpd.serve_forever()

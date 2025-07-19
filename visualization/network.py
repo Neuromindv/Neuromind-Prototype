@@ -27,11 +27,25 @@ class NeuromindNetwork(nn.Module):
 
     def grow_network(self, new_neurons=5, label="New Branch"):
         self.neurons += new_neurons
-        self.layer1 = nn.Linear(self.layer1.in_features, self.neurons)
-        new_branch = {"id": len(self.branches) + 1, "label": label, "data": f"Branch {len(self.branches) + 1}"}
+        self.layer1 = nn.Linear(self.layer1.in_features, self.neurons)  # Aktualizacja warstwy
+        branch_id = len(self.branches) + 1
+        new_branch = {"id": branch_id, "label": label, "data": f"Branch {branch_id}"}
+
+        # Generowanie podpytań na podstawie odpowiedzi
+        related_questions = self.generate_subquestions(label)
+        new_branch["subquestions"] = related_questions
+
         self.branches.append(new_branch)
         self.save_branches()
         print(f"Network grew! New neuron count: {self.neurons}, New branch: {label}")
+
+    def generate_subquestions(self, label):
+        keyword = label.lower()
+        if "ai" in keyword:
+            return ["Typy AI", "Modele AI", "Zastosowania AI"]
+        elif "wiedza" in keyword:
+            return ["Zakres wiedzy", "Źródła wiedzy", "Zastosowanie wiedzy"]
+        return ["Czym to jest?", "Jak to działa?", "Do czego to służy?"]
 
     def save_branches(self):
         with open("brain_branches.json", "w") as f:
@@ -43,6 +57,8 @@ class NeuromindNetwork(nn.Module):
                 data = json.load(f)
                 self.core_neuron = data.get("core", self.core_neuron)
                 self.branches = data.get("branches", self.branches)
+                # Aktualizacja neurons na podstawie liczby gałęzi
+                self.neurons = 50 + len(self.branches) * 5
         except FileNotFoundError:
             self.save_branches()
 
