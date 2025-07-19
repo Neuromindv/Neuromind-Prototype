@@ -5,10 +5,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <style>
     body { margin: 0; overflow: hidden; }
-    canvas { width: 100%; height: 100vh; }
+    canvas { width: 100%; height: 80vh; }
+    #info { position: absolute; color: white; top: 10px; left: 10px; }
+    #questions { position: absolute; color: white; top: 50px; left: 10px; }
+    #form { position: absolute; bottom: 10px; left: 10px; color: white; }
   </style>
 </head>
 <body>
+  <div id="info"></div>
+  <div id="questions"></div>
+  <div id="form">
+    <input type="text" id="answer" placeholder="Your answer..." style="width: 200px; padding: 5px;">
+    <button onclick="submitAnswer()">Submit</button>
+  </div>
   <script>
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -16,21 +25,84 @@
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
-    const geometry = new THREE.SphereGeometry(0.5, 32, 32);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const neuron = new THREE.Mesh(geometry, material);
-    scene.add(neuron);
+    let coreNeuron, branches = [];
 
-    camera.position.z = 5;
+    function initScene(data) {
+      scene.clear(); // Wyczyść scenę
+      const coreGeo = new THREE.SphereGeometry(1, 32, 32);
+      const coreMat = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+      coreNeuron = new THREE.Mesh(coreGeo, coreMat);
+      coreNeuron.position.set(0, 0, 0);
+      scene.add(coreNeuron);
+
+      const branchGeo = new THREE.SphereGeometry(0.5, 32, 32);
+      const branchMat = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+      branches = [];
+      const initialBranches = [
+        { x: 2, y: 2, z: -2 },
+        { x: -2, y: -2, z: 2 }
+      ];
+      initialBranches.forEach(pos => {
+        const neuron = new THREE.Mesh(branchGeo, branchMat);
+        neuron.position.set(pos.x, pos.y, pos.z);
+        scene.add(neuron);
+        branches.push(neuron);
+      });
+    }
+
+    initScene();
+    camera.position.z = 10;
 
     function animate() {
       requestAnimationFrame(animate);
-      neuron.scale.x = 1 + Math.sin(Date.now() * 0.008); // 8 Hz
-      neuron.scale.y = neuron.scale.x;
-      neuron.scale.z = neuron.scale.x;
+      coreNeuron.scale.x = 1 + Math.sin(Date.now() * 0.008) * 0.2;
+      coreNeuron.scale.y = coreNeuron.scale.x;
+      coreNeuron.scale.z = coreNeuron.scale.x;
+      branches.forEach(neuron => {
+        neuron.scale.x = 1 + Math.sin(Date.now() * 0.008) * 0.1;
+        neuron.scale.y = neuron.scale.x;
+        neuron.scale.z = neuron.scale.x;
+      });
       renderer.render(scene, camera);
     }
     animate();
+
+    function updateData() {
+      fetch('/network', { cache: 'no-store' })
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('info').innerText = `Neurons: ${data.neurons}, Rhythm: ${data.rhythm_freq} Hz, Core: ${data.core}`;
+          document.getElementById('questions').innerText = `Questions: ${data.questions.join(', ')}`;
+        })
+        .catch(error => console.log("Error fetching data:", error));
+    }
+
+    updateData();
+
+    function submitAnswer() {
+      const answer = document.getElementById('answer').value;
+      fetch('/answer', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ answer: answer })
+      })
+      .then(response => response.json())
+      .then(data => {
+        alert(`Thanks! New branch: ${data.branch}`);
+        updateData(); // Odśwież dane
+        // Dodaj nową kulę tylko jeśli odpowiedź jest nowa (zależne od serwera)
+        const branchGeo = new THREE.SphereGeometry(0.5, 32, 32);
+        const branchMat = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const newBranch = new THREE.Mesh(branchGeo, branchMat);
+        const angle = (branches.length + 2) * (Math.PI / 4);
+        newBranch.position.set(3 * Math.cos(angle), 3 * Math.sin(angle), -2);
+        scene.add(newBranch);
+        branches.push(newBranch);
+        initScene(); // Ponowne zainicjowanie sceny z aktualnymi danymi
+      })
+      .catch(error => console.log("Error:", error));
+      document.getElementById('answer').value = '';
+    }
   </script>
 </body>
 </html>

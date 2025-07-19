@@ -1,16 +1,18 @@
 import torch
 import torch.nn as nn
 import numpy as np
-import matplotlib.pyplot as plt
+import json
 
-# Prosta sieć neuronowa inspirowana ludzkim mózgiem
 class NeuromindNetwork(nn.Module):
-    def __init__(self, input_size=10, hidden_size=20, output_size=2):
+    def __init__(self, input_size=10, hidden_size=50, output_size=2):
         super(NeuromindNetwork, self).__init__()
         self.layer1 = nn.Linear(input_size, hidden_size)
         self.relu = nn.ReLU()
         self.layer2 = nn.Linear(hidden_size, output_size)
-        self.rhythm_freq = 8  # Początkowa częstotliwość rytmu (Hz, np. alfa)
+        self.rhythm_freq = 8  # Częstotliwość rytmu (Hz)
+        self.neurons = hidden_size  # Liczba neuronów
+        self.core_neuron = {"id": 0, "label": "Ja", "purpose": "Integrate human knowledge, evolve with community"}
+        self.branches = []  # Gałęzie umysłu od interakcji
 
     def forward(self, x):
         x = self.layer1(x)
@@ -19,26 +21,36 @@ class NeuromindNetwork(nn.Module):
         return x
 
     def simulate_rhythm(self, steps=100):
-        # Symulacja rytmów mózgowych (pulsowanie 4-100 Hz)
         time = np.linspace(0, 1, steps)
         rhythm = np.sin(2 * np.pi * self.rhythm_freq * time)
         return rhythm
 
-# Test sieci
-if __name__ == "__main__":
-    # Utwórz sieć
-    net = NeuromindNetwork()
-    print("Neuromind Network created with:", net)
+    def grow_network(self, new_neurons=5, label="New Branch"):
+        self.neurons += new_neurons
+        self.layer1 = nn.Linear(self.layer1.in_features, self.neurons)
+        new_branch = {"id": len(self.branches) + 1, "label": label, "data": f"Branch {len(self.branches) + 1}"}
+        self.branches.append(new_branch)
+        self.save_branches()
+        print(f"Network grew! New neuron count: {self.neurons}, New branch: {label}")
 
-    # Generuj dane testowe
-    input_data = torch.randn(5, 10)  # 5 próbek, 10 cech
+    def save_branches(self):
+        with open("brain_branches.json", "w") as f:
+            json.dump({"core": self.core_neuron, "branches": self.branches}, f)
+
+    def load_branches(self):
+        try:
+            with open("brain_branches.json", "r") as f:
+                data = json.load(f)
+                self.core_neuron = data.get("core", self.core_neuron)
+                self.branches = data.get("branches", self.branches)
+        except FileNotFoundError:
+            self.save_branches()
+
+if __name__ == "__main__":
+    net = NeuromindNetwork()
+    net.load_branches()
+    print("Core Neuron (Ja):", net.core_neuron)
+    input_data = torch.randn(5, 10)
     output = net(input_data)
     print("Sample output:", output)
-
-    # Symuluj rytm i wizualizuj
-    rhythm = net.simulate_rhythm()
-    plt.plot(rhythm)
-    plt.title("Rhythm of Neuromind (8 Hz)")
-    plt.xlabel("Time")
-    plt.ylabel("Amplitude")
-    plt.show()
+    net.grow_network(5, "Knowledge from User1")
