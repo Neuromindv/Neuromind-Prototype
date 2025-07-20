@@ -1,0 +1,72 @@
+[
+  {
+    "id": "486de430-4826-4f69-ad9f-e2845f73a29b",
+    "label": "Miłość",
+    "category": "Emocje",
+    "subquestions": [
+      "Co oznacza Miłość?",
+      "Jak Miłość wpływa na inne aspekty?",
+      "Czy rozumiem Miłość wystarczająco głęboko?"
+    ]
+  },
+  {
+    "id": "33bbbc6a-6ad7-475b-a167-d89832011bbc",
+    "label": "Reakcja",
+    "category": "Inne",
+    "subquestions": [
+      "Co oznacza Reakcja?",
+      "Jak Reakcja wpływa na inne aspekty?",
+      "Czy rozumiem Reakcja wystarczająco głęboko?"
+    ]
+  },
+  {
+    "id": "8e73dc3e-829e-4478-8363-ad7e62c0d5f2",
+    "label": "Wiedza",
+    "category": "Inne",
+    "subquestions": [
+      "Co oznacza Wiedza?",
+      "Jak Wiedza wpływa na inne aspekty?",
+      "Czy rozumiem Wiedza wystarczająco głęboko?"
+    ]
+  },
+  {
+    "id": "f6d3bd75-72e8-411e-b2a3-fbe95d76b0fa",
+    "label": "Smutek",
+    "category": "Inne",
+    "subquestions": [
+      "Co oznacza Smutek?",
+      "Jak Smutek wpływa na inne aspekty?",
+      "Czy rozumiem Smutek wystarczająco głęboko?"
+    ]
+  },
+  {
+    "id": "b54e53c1-a557-4305-b1b3-cf0209b712af",
+    "label": "Szczęście",
+    "category": "Inne",
+    "subquestions": [
+      "Co oznacza Szczęście?",
+      "Jak Szczęście wpływa na inne aspekty?",
+      "Czy rozumiem Szczęście wystarczająco głęboko?"
+    ]
+  },
+  {
+    "id": "3a71b304-26c4-4023-953c-8a73b03e72d4",
+    "label": "Złość",
+    "category": "Emocje",
+    "subquestions": [
+      "Co oznacza Złość?",
+      "Jak Złość wpływa na inne aspekty?",
+      "Czy rozumiem Złość wystarczająco głęboko?"
+    ]
+  },
+  {
+    "id": "d11d3b97-bfee-4d3a-8cbd-b9d1a29d3fdb",
+    "label": "Ai odpowiada: dlaczego? (przykładowa odpowiedź)",
+    "category": "AI",
+    "subquestions": [
+      "Co oznacza Ai odpowiada: dlaczego? (przykładowa odpowiedź)?",
+      "Jak Ai odpowiada: dlaczego? (przykładowa odpowiedź) wpływa na inne aspekty?",
+      "Czy rozumiem Ai odpowiada: dlaczego? (przykładowa odpowiedź) wystarczająco głęboko?"
+    ]
+  }
+]

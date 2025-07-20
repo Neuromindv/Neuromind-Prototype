@@ -1,0 +1,3085 @@
+{
+  "core": {
+    "id": 0,
+    "label": "Ja",
+    "purpose": "Integrate human knowledge, evolve with community"
+  },
+  "branches": [
+    {
+      "id": 1,
+      "label": "Response: Wiedza o ai",
+      "data": "Branch 1",
+      "subquestions": [
+        "Typy AI",
+        "Modele AI",
+        "Zastosowania AI"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Response: Typy ai",
+      "data": "Branch 2",
+      "subquestions": [
+        "Typy AI",
+        "Modele AI",
+        "Zastosowania AI"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Response: Modele ai",
+      "data": "Branch 3",
+      "subquestions": [
+        "Typy AI",
+        "Modele AI",
+        "Zastosowania AI"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Response: Zastosowania ai",
+      "data": "Branch 4",
+      "subquestions": [
+        "Typy AI",
+        "Modele AI",
+        "Zastosowania AI"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Response: Inne",
+      "data": "Branch 5",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Response: Do czego to służy?",
+      "data": "Branch 6",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Response: Jak to działa?",
+      "data": "Branch 7",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Response: Ai to sztuczna inteligencja.",
+      "data": "Branch 8",
+      "subquestions": [
+        "Typy AI",
+        "Modele AI",
+        "Zastosowania AI"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Response: Whats",
+      "data": "Branch 9",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Response: Yes",
+      "data": "Branch 10",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Response: No",
+      "data": "Branch 11",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "Response: Yesss",
+      "data": "Branch 12",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "Response: Damn",
+      "data": "Branch 13",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Response: Dasd",
+      "data": "Branch 14",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 15,
+      "label": "Response: Asdasd",
+      "data": "Branch 15",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 16,
+      "label": "Response: Sadfas",
+      "data": "Branch 16",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Response: Ads",
+      "data": "Branch 17",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Response: Asf",
+      "data": "Branch 18",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 19,
+      "label": "Response: Fasfa",
+      "data": "Branch 19",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Response: Asfsafasf",
+      "data": "Branch 20",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 21,
+      "label": "Response: Egwegewg",
+      "data": "Branch 21",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Response: Co tma",
+      "data": "Branch 22",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 23,
+      "label": "Response: Czym jest ai?",
+      "data": "Branch 23",
+      "subquestions": [
+        "Typy AI",
+        "Modele AI",
+        "Zastosowania AI"
+      ]
+    },
+    {
+      "id": 24,
+      "label": "Response: Dlaczego",
+      "data": "Branch 24",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 25,
+      "label": "Response: Dlaczego my?",
+      "data": "Branch 25",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 26,
+      "label": "Response: Dlaczego ja to ty a my to ja",
+      "data": "Branch 26",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 27,
+      "label": "Response: Kto",
+      "data": "Branch 27",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 28,
+      "label": "Response: Ty on ono",
+      "data": "Branch 28",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 29,
+      "label": "Response: Ad",
+      "data": "Branch 29",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 30,
+      "label": "Response: F",
+      "data": "Branch 30",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 31,
+      "label": "Response: Fsa",
+      "data": "Branch 31",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 32,
+      "label": "Response: Fsaf",
+      "data": "Branch 32",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 33,
+      "label": "Response: Fasf",
+      "data": "Branch 33",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 34,
+      "label": "Response: Fas",
+      "data": "Branch 34",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 35,
+      "label": "Response: Geggg",
+      "data": "Branch 35",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 36,
+      "label": "Response: Addd da",
+      "data": "Branch 36",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 37,
+      "label": "Response: Eqwrqf sa",
+      "data": "Branch 37",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 38,
+      "label": "Response: Eqwr",
+      "data": "Branch 38",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 39,
+      "label": "Response: Safasfasc",
+      "data": "Branch 39",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 40,
+      "label": "Response: O cd",
+      "data": "Branch 40",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 41,
+      "label": "Response: D",
+      "data": "Branch 41",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 42,
+      "label": "Response: Dd",
+      "data": "Branch 42",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 43,
+      "label": "Response: Fasfff",
+      "data": "Branch 43",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 44,
+      "label": "Response: Fasfasf",
+      "data": "Branch 44",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 45,
+      "label": "Response: Safasf",
+      "data": "Branch 45",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 46,
+      "label": "Response: Safasfaf",
+      "data": "Branch 46",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 47,
+      "label": "Response: Asfasfasf",
+      "data": "Branch 47",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 48,
+      "label": "Response: Sfafasf",
+      "data": "Branch 48",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 49,
+      "label": "Response: Sztuczna inteligencja",
+      "data": "Branch 49",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 50,
+      "label": "Response: Maszyny uczące się",
+      "data": "Branch 50",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 51,
+      "label": "Auto: Analizuj",
+      "data": "Branch 51",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 52,
+      "label": "Auto: Szukaj",
+      "data": "Branch 52",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 53,
+      "label": "Auto: Szukaj",
+      "data": "Branch 53",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 54,
+      "label": "Auto: Analizuj",
+      "data": "Branch 54",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 55,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 55",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 56,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 56",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 57,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 57",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 58,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 58",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 59,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 59",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 60,
+      "label": "Auto: Analizuj",
+      "data": "Branch 60",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 61,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 61",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 62,
+      "label": "Auto: Analizuj",
+      "data": "Branch 62",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 63,
+      "label": "Auto: Szukaj",
+      "data": "Branch 63",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 64,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 64",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 65,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 65",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 66,
+      "label": "Response: Czym jestem?",
+      "data": "Branch 66",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 67,
+      "label": "Auto: Analizuj",
+      "data": "Branch 67",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 68,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 68",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 69,
+      "label": "Auto: Analizuj",
+      "data": "Branch 69",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 70,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 70",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 71,
+      "label": "Auto: Szukaj",
+      "data": "Branch 71",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 72,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 72",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 73,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 73",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 74,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 74",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 75,
+      "label": "Auto: Analizuj",
+      "data": "Branch 75",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 76,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 76",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 77,
+      "label": "Auto: Szukaj",
+      "data": "Branch 77",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 78,
+      "label": "Response: Siema",
+      "data": "Branch 78",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 78,
+      "label": "Auto: Szukaj",
+      "data": "Branch 78",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 80,
+      "label": "Response: Dasdas",
+      "data": "Branch 80",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 80,
+      "label": "Response: Dasdas",
+      "data": "Branch 80",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 82,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 82",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 83,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 83",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 84,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 84",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 85,
+      "label": "Auto: Analizuj",
+      "data": "Branch 85",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 86,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 86",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 87,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 87",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 88,
+      "label": "Auto: Szukaj",
+      "data": "Branch 88",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 89,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 89",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 90,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 90",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 91,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 91",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 92,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 92",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 93,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 93",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 94,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 94",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 95,
+      "label": "Response: Sdasd",
+      "data": "Branch 95",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 95,
+      "label": "Auto: Analizuj",
+      "data": "Branch 95",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 97,
+      "label": "Response: Aaaa",
+      "data": "Branch 97",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 98,
+      "label": "Auto: Analizuj",
+      "data": "Branch 98",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 99,
+      "label": "Auto: Szukaj",
+      "data": "Branch 99",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 100,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 100",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 101,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 101",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 102,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 102",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 103,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 103",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 104,
+      "label": "Auto: Analizuj",
+      "data": "Branch 104",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 105,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 105",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 106,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 106",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 107,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 107",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 108,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 108",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 109,
+      "label": "Auto: Szukaj",
+      "data": "Branch 109",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 110,
+      "label": "Auto: Analizuj",
+      "data": "Branch 110",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 111,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 111",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 112,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 112",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 113,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 113",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 114,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 114",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 115,
+      "label": "Auto: Szukaj",
+      "data": "Branch 115",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 116,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 116",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 117,
+      "label": "Response: Witaj",
+      "data": "Branch 117",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 117,
+      "label": "Auto: Szukaj",
+      "data": "Branch 117",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 119,
+      "label": "Response: Hejj",
+      "data": "Branch 119",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 119,
+      "label": "Response: Co tam",
+      "data": "Branch 119",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 121,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 121",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 122,
+      "label": "Response: Ja to ty a ty to kto?",
+      "data": "Branch 122",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 122,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 122",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 124,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 124",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 125,
+      "label": "Auto: Analizuj",
+      "data": "Branch 125",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 126,
+      "label": "Auto: Szukaj",
+      "data": "Branch 126",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 127,
+      "label": "Auto: Analizuj",
+      "data": "Branch 127",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 128,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 128",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 129,
+      "label": "Auto: Szukaj",
+      "data": "Branch 129",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 130,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 130",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 131,
+      "label": "Auto: Szukaj",
+      "data": "Branch 131",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 132,
+      "label": "Auto: Analizuj",
+      "data": "Branch 132",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 133,
+      "label": "Auto: Szukaj",
+      "data": "Branch 133",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 134,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 134",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 135,
+      "label": "Auto: Szukaj",
+      "data": "Branch 135",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 136,
+      "label": "Auto: Analizuj",
+      "data": "Branch 136",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 137,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 137",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 138,
+      "label": "Auto: Szukaj",
+      "data": "Branch 138",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 139,
+      "label": "Auto: Analizuj",
+      "data": "Branch 139",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 140,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 140",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 141,
+      "label": "Auto: Szukaj",
+      "data": "Branch 141",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 142,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 142",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 143,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 143",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 144,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 144",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 145,
+      "label": "Auto: Analizuj",
+      "data": "Branch 145",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 146,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 146",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 147,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 147",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 148,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 148",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 149,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 149",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 150,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 150",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 151,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 151",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 152,
+      "label": "Auto: Rozwijaj się",
+      "data": "Branch 152",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 153,
+      "label": "Auto: Szukaj",
+      "data": "Branch 153",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 154,
+      "label": "Auto: Szukaj",
+      "data": "Branch 154",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 155,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 155",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 156,
+      "label": "Auto: Analizuj -> Nowy kierunek",
+      "data": "Branch 156",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 157,
+      "label": "Auto: Analizuj -> Szczegóły",
+      "data": "Branch 157",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 158,
+      "label": "Auto: Zastanów się -> Analiza",
+      "data": "Branch 158",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 159,
+      "label": "Auto: Zastanów się -> Szczegóły",
+      "data": "Branch 159",
+      "subquestions": [
+        "Do czego to służy?",
+        "Kto to stworzył?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 160,
+      "label": "Auto: Analizuj -> Analiza",
+      "data": "Branch 160",
+      "subquestions": [
+        "Do czego to służy?",
+        "Po co to istnieje?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 161,
+      "label": "Auto: F -> Analiza",
+      "data": "Branch 161",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Jak to działa?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 162,
+      "label": "Auto: O cd -> Nowy kierunek",
+      "data": "Branch 162",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Czym to jest?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 163,
+      "label": "Auto: O cd -> Analiza",
+      "data": "Branch 163",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 164,
+      "label": "Auto: Szukaj -> Analiza",
+      "data": "Branch 164",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 165,
+      "label": "Auto: Szukaj -> Szczegóły",
+      "data": "Branch 165",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 166,
+      "label": "Response: Eweerfgn",
+      "data": "Branch 166",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 167,
+      "label": "Auto: Hejj -> Analiza",
+      "data": "Branch 167",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 168,
+      "label": "Auto: Hejj -> Szczegóły",
+      "data": "Branch 168",
+      "subquestions": [
+        "Jak to działa?",
+        "Kto to stworzył?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 169,
+      "label": "Auto: Ad -> Szczegóły",
+      "data": "Branch 169",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 170,
+      "label": "Auto: Ad -> Nowy kierunek",
+      "data": "Branch 170",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 171,
+      "label": "Auto: Zadaj pytanie -> Analiza",
+      "data": "Branch 171",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 172,
+      "label": "Auto: Zadaj pytanie -> Szczegóły",
+      "data": "Branch 172",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 173,
+      "label": "Auto: Zadaj pytanie -> Nowy kierunek",
+      "data": "Branch 173",
+      "subquestions": [
+        "Jak to działa?",
+        "Do czego to służy?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 174,
+      "label": "Auto: Szukaj -> Analiza -> Analiza",
+      "data": "Branch 174",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 175,
+      "label": "Auto: Szukaj -> Analiza -> Nowy kierunek",
+      "data": "Branch 175",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Do czego to służy?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 176,
+      "label": "Auto: Szukaj -> Analiza -> Analiza -> Szczegóły",
+      "data": "Branch 176",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Kto to wymyślił?",
+        "Jak to działa?",
+        "Jaki to ma sens?"
+      ]
+    },
+    {
+      "id": 177,
+      "label": "Auto: Szukaj -> Analiza -> Analiza -> Nowy kierunek",
+      "data": "Branch 177",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 178,
+      "label": "Auto: F -> Analiza -> Szczegóły",
+      "data": "Branch 178",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Jak to rozwijać?",
+        "Jaki to ma sens?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 179,
+      "label": "Auto: Siema -> Analiza",
+      "data": "Branch 179",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to rozwijać?",
+        "Kto to wymyślił?"
+      ]
+    },
+    {
+      "id": 180,
+      "label": "Auto: Siema -> Szczegóły",
+      "data": "Branch 180",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Jak to rozwijać?",
+        "Po co to istnieje?",
+        "Jaki to ma sens?"
+      ]
+    },
+    {
+      "id": 181,
+      "label": "Auto: Ty on ono -> Szczegóły",
+      "data": "Branch 181",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 182,
+      "label": "Auto: Rozwijaj się -> Analiza",
+      "data": "Branch 182",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Jaki to ma sens?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 183,
+      "label": "Auto: Rozwijaj się -> Nowy kierunek",
+      "data": "Branch 183",
+      "category": "Inne",
+      "strength": 1,
+      "subquestions": [
+        "Po co to istnieje?",
+        "Czym to jest?",
+        "Kto to wymyślił?"
+      ]
+    },
+    {
+      "id": 184,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 184",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 185,
+      "label": "Auto: Analizuj",
+      "data": "Branch 185",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 186,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 186",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jak to działa?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 187,
+      "label": "Auto: Analizuj",
+      "data": "Branch 187",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 188,
+      "label": "Auto: Szukaj",
+      "data": "Branch 188",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 189,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 189",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 190,
+      "label": "Response: Tata",
+      "data": "Branch 190",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Czym to jest?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 191,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 191",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 192,
+      "label": "Response: Tstata",
+      "data": "Branch 192",
+      "subquestions": [
+        "Do czego to służy?",
+        "Kto to stworzył?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 193,
+      "label": "Response: Tastast",
+      "data": "Branch 193",
+      "subquestions": [
+        "Czym to jest?",
+        "Jakie ma ograniczenia?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 194,
+      "label": "Auto: Szukaj",
+      "data": "Branch 194",
+      "subquestions": [
+        "Czym to jest?",
+        "Kto to stworzył?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 195,
+      "label": "Auto: Szukaj",
+      "data": "Branch 195",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 196,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 196",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 197,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 197",
+      "subquestions": [
+        "Jak to działa?",
+        "Kto to stworzył?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 198,
+      "label": "Auto: Szukaj",
+      "data": "Branch 198",
+      "subquestions": [
+        "Czym to jest?",
+        "Jakie ma ograniczenia?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 199,
+      "label": "Auto: Szukaj",
+      "data": "Branch 199",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 200,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 200",
+      "subquestions": [
+        "Do czego to służy?",
+        "Czym to jest?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 201,
+      "label": "Auto: Szukaj",
+      "data": "Branch 201",
+      "subquestions": [
+        "Do czego to służy?",
+        "Po co to istnieje?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 202,
+      "label": "Auto: Analizuj",
+      "data": "Branch 202",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 203,
+      "label": "Auto: Szukaj",
+      "data": "Branch 203",
+      "subquestions": [
+        "Czym to jest?",
+        "Do czego to służy?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 204,
+      "label": "Auto: Szukaj",
+      "data": "Branch 204",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jak to działa?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 205,
+      "label": "Auto: Szukaj",
+      "data": "Branch 205",
+      "subquestions": [
+        "Jak to działa?",
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 206,
+      "label": "Auto: Szukaj",
+      "data": "Branch 206",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 207,
+      "label": "Auto: Szukaj",
+      "data": "Branch 207",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 208,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 208",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 209,
+      "label": "Response: Aha?",
+      "data": "Branch 209",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Czym to jest?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 210,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 210",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Kto to stworzył?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 211,
+      "label": "Response: Sd",
+      "data": "Branch 211",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 212,
+      "label": "Response: Sfaf",
+      "data": "Branch 212",
+      "subquestions": [
+        "Czym to jest?",
+        "Kto to stworzył?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 213,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 213",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 214,
+      "label": "Auto: Szukaj",
+      "data": "Branch 214",
+      "subquestions": [
+        "Do czego to służy?",
+        "Kto to stworzył?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 215,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 215",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Kto to stworzył?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 216,
+      "label": "Auto: Szukaj",
+      "data": "Branch 216",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 217,
+      "label": "Auto: Analizuj",
+      "data": "Branch 217",
+      "subquestions": [
+        "Do czego to służy?",
+        "Czym to jest?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 218,
+      "label": "Auto: Szukaj",
+      "data": "Branch 218",
+      "subquestions": [
+        "Jak to działa?",
+        "Kto to stworzył?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 219,
+      "label": "Auto: Szukaj",
+      "data": "Branch 219",
+      "subquestions": [
+        "Czym to jest?",
+        "Do czego to służy?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 220,
+      "label": "Response: Gdzie",
+      "data": "Branch 220",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Czym to jest?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 221,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 221",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 222,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 222",
+      "subquestions": [
+        "Do czego to służy?",
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 223,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 223",
+      "subquestions": [
+        "Jak to działa?",
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 224,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 224",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 225,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 225",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 226,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 226",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 227,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 227",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 228,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 228",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 229,
+      "label": "Auto: Szukaj",
+      "data": "Branch 229",
+      "subquestions": [
+        "Jak to działa?",
+        "Po co to istnieje?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 230,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 230",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Do czego to służy?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 231,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 231",
+      "subquestions": [
+        "Do czego to służy?",
+        "Kto to stworzył?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 232,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 232",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 233,
+      "label": "Auto: Analizuj",
+      "data": "Branch 233",
+      "subquestions": [
+        "Jak to działa?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 234,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 234",
+      "subquestions": [
+        "Do czego to służy?",
+        "Czym to jest?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 235,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 235",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 236,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 236",
+      "subquestions": [
+        "Do czego to służy?",
+        "Kto to stworzył?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 237,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 237",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 238,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 238",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 239,
+      "label": "Auto: Analizuj",
+      "data": "Branch 239",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 240,
+      "label": "Auto: Analizuj",
+      "data": "Branch 240",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Czym to jest?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 241,
+      "label": "Auto: Analizuj",
+      "data": "Branch 241",
+      "subquestions": [
+        "Jak to działa?",
+        "Do czego to służy?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 242,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 242",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 243,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 243",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Do czego to służy?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 244,
+      "label": "Auto: Analizuj",
+      "data": "Branch 244",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 245,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 245",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 246,
+      "label": "Auto: Analizuj",
+      "data": "Branch 246",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 247,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 247",
+      "subquestions": [
+        "Jak to działa?",
+        "Czym to jest?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 248,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 248",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jak to działa?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 249,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 249",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Jak to działa?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 250,
+      "label": "Auto: Analizuj",
+      "data": "Branch 250",
+      "subquestions": [
+        "Jak to działa?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 251,
+      "label": "Auto: Szukaj",
+      "data": "Branch 251",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 252,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 252",
+      "subquestions": [
+        "Czym to jest?",
+        "Do czego to służy?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 253,
+      "label": "Auto: Szukaj",
+      "data": "Branch 253",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 254,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 254",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 255,
+      "label": "Auto: Szukaj",
+      "data": "Branch 255",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 256,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 256",
+      "subquestions": [
+        "Do czego to służy?",
+        "Po co to istnieje?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 257,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 257",
+      "subquestions": [
+        "Czym to jest?",
+        "Kto to stworzył?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 258,
+      "label": "Auto: Szukaj",
+      "data": "Branch 258",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 259,
+      "label": "Auto: Analizuj",
+      "data": "Branch 259",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 260,
+      "label": "Auto: Analizuj",
+      "data": "Branch 260",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Czym to jest?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 261,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 261",
+      "subquestions": [
+        "Do czego to służy?",
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 262,
+      "label": "Response: Zwierzęta",
+      "data": "Branch 262",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jak to działa?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 263,
+      "label": "Auto: Szukaj",
+      "data": "Branch 263",
+      "subquestions": [
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 264,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 264",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Czym to jest?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 265,
+      "label": "Auto: Analizuj",
+      "data": "Branch 265",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 266,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 266",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Czym to jest?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 267,
+      "label": "Auto: Analizuj",
+      "data": "Branch 267",
+      "subquestions": [
+        "Jak to działa?",
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 268,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 268",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 269,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 269",
+      "subquestions": [
+        "Czym to jest?",
+        "Jakie ma ograniczenia?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 270,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 270",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 271,
+      "label": "Response: Kolejny temat",
+      "data": "Branch 271",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 272,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 272",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 273,
+      "label": "Auto: Szukaj",
+      "data": "Branch 273",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 274,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 274",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 275,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 275",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Do czego to służy?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 276,
+      "label": "Auto: Szukaj",
+      "data": "Branch 276",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 277,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 277",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jakie ma ograniczenia?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 278,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 278",
+      "subquestions": [
+        "Jak to działa?",
+        "Kto to stworzył?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 279,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 279",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Do czego to służy?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 280,
+      "label": "Auto: Szukaj",
+      "data": "Branch 280",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Czym to jest?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 281,
+      "label": "Auto: Analizuj",
+      "data": "Branch 281",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Do czego to służy?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 282,
+      "label": "Auto: Obserwuj",
+      "data": "Branch 282",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Do czego to służy?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 283,
+      "label": "Auto: Zastanów się",
+      "data": "Branch 283",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Po co to istnieje?",
+        "Do czego to służy?"
+      ]
+    },
+    {
+      "id": 284,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 284",
+      "subquestions": [
+        "Czym to jest?",
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?"
+      ]
+    },
+    {
+      "id": 285,
+      "label": "Auto: Szukaj",
+      "data": "Branch 285",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Czym to jest?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 286,
+      "label": "Auto: Zadaj pytanie",
+      "data": "Branch 286",
+      "subquestions": [
+        "Jakie ma ograniczenia?",
+        "Kto to stworzył?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 287,
+      "label": "Response: Kreatywność",
+      "category": "Szum / dane losowe",
+      "data": "Branch 287",
+      "subquestions": [
+        "Dlaczego?",
+        "Jak?",
+        "Co to znaczy?"
+      ]
+    },
+    {
+      "id": 288,
+      "label": "Response: Ciekawość",
+      "category": "Szum / dane losowe",
+      "data": "Branch 288",
+      "subquestions": [
+        "Dlaczego?",
+        "Jak?",
+        "Co to znaczy?"
+      ]
+    },
+    {
+      "id": 289,
+      "label": "Response: Zabawny",
+      "category": "Szum / dane losowe",
+      "data": "Branch 289",
+      "subquestions": [
+        "Dlaczego?",
+        "Jak?",
+        "Co to znaczy?"
+      ]
+    },
+    {
+      "id": 290,
+      "label": "Response: Miłość",
+      "category": "Szum / dane losowe",
+      "data": "Branch 290",
+      "subquestions": [
+        "Dlaczego?",
+        "Jak?",
+        "Co to znaczy?"
+      ]
+    },
+    {
+      "id": 291,
+      "label": "Response: Smutek",
+      "category": "Emocje",
+      "data": "Branch 291",
+      "subquestions": [
+        "Dlaczego?",
+        "Jak?",
+        "Co to znaczy?"
+      ]
+    },
+    {
+      "id": 292,
+      "label": "Response: Błogość",
+      "category": "Szum / dane losowe",
+      "data": "Branch 292",
+      "subquestions": [
+        "Dlaczego?",
+        "Jak?",
+        "Co to znaczy?"
+      ]
+    },
+    {
+      "id": 293,
+      "label": "Response: Złość",
+      "category": "Szum / dane losowe",
+      "tags": [
+        "response:",
+        "złość"
+      ],
+      "subquestions": [
+        "Czym to jest?",
+        "Do czego to służy?",
+        "Kto to stworzył?"
+      ]
+    },
+    {
+      "id": 294,
+      "label": "Response: Nienawiść",
+      "category": "Szum / dane losowe",
+      "tags": [
+        "response:",
+        "nienawiść"
+      ],
+      "subquestions": [
+        "Jak to działa?",
+        "Jakie ma skutki?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 295,
+      "label": "Response: Radość",
+      "category": "Emocje",
+      "tags": [
+        "response:",
+        "radość"
+      ],
+      "subquestions": [
+        "Do czego to służy?",
+        "Kto to stworzył?",
+        "Jak to działa?"
+      ]
+    },
+    {
+      "id": 296,
+      "label": "Response: Nostalgia",
+      "category": "Szum / dane losowe",
+      "tags": [
+        "response:",
+        "nostalgia"
+      ],
+      "subquestions": [
+        "Do czego to służy?",
+        "Jakie ma ograniczenia?",
+        "Jakie ma skutki?"
+      ]
+    },
+    {
+      "id": 297,
+      "label": "Złość",
+      "category": "Inne",
+      "data": "Neuron 297",
+      "subquestions": [
+        "Jak to działa?",
+        "Z czym się łączy?",
+        "Dlaczego to ważne?"
+      ]
+    },
+    {
+      "id": 298,
+      "label": "Miłość",
+      "category": "Emocje",
+      "data": "Neuron 298",
+      "subquestions": [
+        "Czym to jest?",
+        "Jak to działa?",
+        "Jakie ma skutki?"
+      ]
+    },
+    {
+      "id": 299,
+      "label": "Uśmiech",
+      "category": "Inne",
+      "data": "Neuron 299",
+      "subquestions": [
+        "Dlaczego to ważne?",
+        "Czym to jest?",
+        "Z czym się łączy?"
+      ]
+    },
+    {
+      "id": 300,
+      "label": "Rozgoryczenie",
+      "category": "Inne",
+      "data": "Neuron 300",
+      "subquestions": [
+        "Jakie ma skutki?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 301,
+      "label": "Nieudolność",
+      "category": "Inne",
+      "color": "#cccccc",
+      "data": "Branch 301",
+      "subquestions": [
+        "Kto to stworzył?",
+        "Jak to działa?",
+        "Po co to istnieje?"
+      ]
+    },
+    {
+      "id": 302,
+      "label": "Nienawiść",
+      "category": "Inne",
+      "color": "#cccccc",
+      "data": "Branch 302",
+      "subquestions": [
+        "Po co to istnieje?",
+        "Jakie ma ograniczenia?",
+        "Czym to jest?"
+      ]
+    },
+    {
+      "id": 303,
+      "label": "Wspomnienie",
+      "category": "Inne",
+      "subquestions": [
+        "Do czego służy?",
+        "Jak to działa?",
+        "Czym to jest?"
+      ]
+    }
+  ]
+}
